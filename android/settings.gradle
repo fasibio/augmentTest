@@ -1,0 +1,5 @@
+rootProject.name = 'augmentTest'
+include ':react-native-augment'
+project(':react-native-augment').projectDir = new File(rootProject.projectDir, '../node_modules/react-native-augment/android')
+
+include ':app'

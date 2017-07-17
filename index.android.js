@@ -115,6 +115,7 @@ export default class augmentTest extends Component {
           this.setState({
             selectedValue: itemValue
           })
+          //@TODO Remove reset current Products How TO ????????? _________________________________________________________
          this.playerInstance.addProduct(productJson[itemValue])
         }}
       >
